@@ -3,7 +3,7 @@ import staticAdapter from "@sveltejs/adapter-static";
 
 const environment = process.env.ENV;
 const mapEnvironmentToBasePath = {
-  production: "",
+  production: "/2023",
   staging: "/website-staging",
 };
 const basePath = mapEnvironmentToBasePath[environment];
